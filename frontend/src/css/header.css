@@ -1,0 +1,14 @@
+.right-btn {
+    position: absolute;
+    /*top: 50%;*/
+    /*-ms-transform: translateY(-50%);*/
+    /*transform: translateY(-50%);*/
+    top: 1em;
+    right:0.1em
+}
+.header-txt {
+    display: none;
+    position: absolute;
+    right: 0.1em;
+    top: 1em;
+}

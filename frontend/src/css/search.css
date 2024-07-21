@@ -1,0 +1,86 @@
+.search-div {
+    display: grid;
+    grid-template-rows: 200px 400px auto;
+}
+
+.logo-image {
+    display: block;
+    margin: auto;
+}
+
+.search-area {
+    display: block;
+    margin: auto;
+}
+
+.search-result {
+    background-color: whitesmoke;
+}
+
+.search-area input[type=text] {
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+    border: 3px solid mediumslateblue;
+    font-size: 18px;
+}
+
+.search-area input[type=submit] {
+    display: none;
+}
+
+.title-grid {
+    display: grid;
+    grid-template-columns: 300px auto 300px;
+    align-items: center;
+}
+
+.hidden-form {
+    display: none;
+}
+
+.section-separator-line {
+    width: 300px;
+    color: darkgray;
+}
+
+.section-title {
+    margin: 0.5em;
+    text-align: center;
+}
+
+.dish-cards-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+}
+
+.recipe-cards-grid {
+    display: grid;
+    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
+    align-items: center;
+}
+
+.title-card {
+    background-color: whitesmoke;
+    border-radius: 12px;
+    margin: 1em;
+    text-align: center;
+    box-shadow: 0.3em .2em .4em darkgrey;
+}
+
+.title-card button {
+    background-color: transparent;
+    border-radius: 12px;
+    width: 100%;
+    border: none;
+}
+
+.recipe-cards-grid .title-card {
+    margin: .4em;
+}
+
+.title-card button:hover {
+    background-color: gainsboro;
+    box-shadow: none;
+}

@@ -1,0 +1,38 @@
+.recipe-content {
+    display: none;
+}
+
+.recipe-top-area {
+    display: grid;
+    grid-template-columns: auto 20px;
+}
+
+.close-btn {
+    padding: .2em;
+}
+
+.recipe {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    padding: 1em;
+}
+
+.recipe-image-container {
+}
+
+.recipe-image {
+    width: 50%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.recipe-header {
+    margin: 0;
+    padding: 0;
+}
+
+.separator-line {
+    width: 100%;
+    color: darkgray;
+}

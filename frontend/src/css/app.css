@@ -1,0 +1,35 @@
+.App {
+    display: grid;
+    grid-template-rows: 65px auto;
+    background-color: gainsboro;
+    padding: .15em 1em .15em 1em;
+    color: black;
+    min-height: 100vh;
+}
+
+.App-Header {
+    flex: auto;
+    position: relative;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    margin: 1em .5em .1em .5em;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+}
+
+.App-Search {
+    flex: auto;
+    position: relative;
+    padding: 0.2em 0.2em 0.2em 0.2em;
+    margin: .1em .5em 1em .5em;
+    border-radius: 6px;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+ /*Adjust the font size for small screens*/
+@media screen and (max-width: 768px) {
+    .App {
+        font-size: smaller;
+    }
+}

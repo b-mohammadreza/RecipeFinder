@@ -1,0 +1,27 @@
+.navigation {
+    left:0.1em
+}
+
+.links-list {
+    padding: 0;
+    margin: 0;
+}
+
+.list-item {
+    display: inline-block;
+    margin: 0.3em;
+}
+
+.link-item {
+    padding: 3px;
+    border: 1px solid midnightblue;
+    border-radius: 6px;
+    width: inherit;
+    height: inherit;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+.link-item:hover {
+    border: 1px solid brown;
+}

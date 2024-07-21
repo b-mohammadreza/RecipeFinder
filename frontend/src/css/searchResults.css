@@ -1,0 +1,61 @@
+.search-results-div {
+    margin-left: 1em;
+    margin-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recipe-tile {
+    flex: 1 0 20%; /* Each card takes up 20% of the container width */
+    max-width: calc(20% - 20px); /* Subtracting the gap */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe-tile:hover {
+    filter: brightness(90%);
+}
+
+.recipe-tile img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.button-wrapper {
+    width: 100%;
+    flex: 1;
+    display: grid;
+    grid-template-rows: auto 50px;
+    background: whitesmoke;
+}
+
+.button-wrapper button {
+    margin: 0.5em;
+}
+
+.recipe-details {
+    padding: 10px;
+    margin-top: 0.5em;
+}
+
+.recipe-details h3 {
+    margin-top: 0;
+}
+
+.recipe-details p {
+    margin: 5px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .recipe-tile {
+        flex-basis: 100%; /* Each card takes up full width on smaller screens */
+        max-width: 100%; /* Each card takes up full width on smaller screens */
+    }
+}
